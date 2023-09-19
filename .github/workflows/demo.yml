@@ -20,6 +20,7 @@ jobs:
           echo "Starting the build process..."
           echo "Compiling source code..."
           echo "Build completed successfully!"
+          echo "Hello Test"
 
   test:
     name: Test Job
@@ -59,3 +60,4 @@ jobs:
           echo "Starting the deployment process..."
           echo "Deploying to the server..."
           echo "Deployment completed successfully!"
+          echo "First test"
